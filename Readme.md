@@ -2,9 +2,9 @@
 
 Ucuz Sepet is an E-Commerce Application.
 
-#Ucuz Sepet Admin
+# Ucuz Sepet Admin
 
-#Ucuz Sepet API
+# Ucuz Sepet API
 
 ## Docker
 
