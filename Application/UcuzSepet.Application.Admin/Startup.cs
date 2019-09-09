@@ -27,8 +27,12 @@ namespace UcuzSepet.Application.Admin {
             });
 
 
+            //services.AddDbContext<EFDbContext>(config => {
+            //    config.UseSqlServer(Configuration.GetConnectionString("SampleConnectionString"));
+            //});
+
             services.AddDbContext<EFDbContext>(config => {
-                config.UseSqlServer(Configuration.GetConnectionString("SampleConnectionString"));
+                config.UseInMemoryDatabase();
             });
 
             services.AddAutoMapper(typeof(Startup));

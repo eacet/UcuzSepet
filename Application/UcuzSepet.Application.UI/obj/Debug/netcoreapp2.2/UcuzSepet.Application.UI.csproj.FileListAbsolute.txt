@@ -27,3 +27,4 @@ C:\Users\erhan.acet\source\repos\UcuzSepet\Application\UcuzSepet.Application.UI\
 C:\Users\erhan.acet\source\repos\UcuzSepet\Application\UcuzSepet.Application.UI\obj\Debug\netcoreapp2.2\UcuzSepet.Application.UI.dll
 C:\Users\erhan.acet\source\repos\UcuzSepet\Application\UcuzSepet.Application.UI\obj\Debug\netcoreapp2.2\UcuzSepet.Application.UI.pdb
 C:\Users\erhan.acet\source\repos\UcuzSepet\Application\UcuzSepet.Application.UI\obj\Debug\netcoreapp2.2\UcuzSepet.Application.UI.csproj.CopyComplete
+C:\Users\erhan.acet\source\repos\UcuzSepet\Application\UcuzSepet.Application.UI\obj\Debug\netcoreapp2.2\UcuzSepet.Application.UI.csprojAssemblyReference.cache

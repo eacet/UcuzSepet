@@ -8,3 +8,4 @@ C:\Users\erhan.acet\source\repos\UcuzSepet\Data\UcuzSepet.Data.Domain\bin\Debug\
 C:\Users\erhan.acet\source\repos\UcuzSepet\Data\UcuzSepet.Data.Domain\bin\Debug\netcoreapp2.1\UcuzSepet.Data.Domain.pdb
 C:\Users\erhan.acet\source\repos\UcuzSepet\Data\UcuzSepet.Data.Domain\obj\Debug\netcoreapp2.1\UcuzSepet.Data.Domain.dll
 C:\Users\erhan.acet\source\repos\UcuzSepet\Data\UcuzSepet.Data.Domain\obj\Debug\netcoreapp2.1\UcuzSepet.Data.Domain.pdb
+C:\Users\erhan.acet\source\repos\UcuzSepet\Data\UcuzSepet.Data.Domain\obj\Debug\netcoreapp2.1\UcuzSepet.Data.Domain.csprojAssemblyReference.cache

@@ -11,3 +11,4 @@ C:\Users\erhan.acet\source\repos\UcuzSepet\Tests\UcuzSepet.Tests.General\obj\Deb
 C:\Users\erhan.acet\source\repos\UcuzSepet\Tests\UcuzSepet.Tests.General\obj\Debug\netcoreapp2.1\UcuzSepet.Tests.General.AssemblyInfo.cs
 C:\Users\erhan.acet\source\repos\UcuzSepet\Tests\UcuzSepet.Tests.General\obj\Debug\netcoreapp2.1\UcuzSepet.Tests.General.dll
 C:\Users\erhan.acet\source\repos\UcuzSepet\Tests\UcuzSepet.Tests.General\obj\Debug\netcoreapp2.1\UcuzSepet.Tests.General.pdb
+C:\Users\erhan.acet\source\repos\UcuzSepet\Tests\UcuzSepet.Tests.General\obj\Debug\netcoreapp2.1\UcuzSepet.Tests.General.csprojAssemblyReference.cache
