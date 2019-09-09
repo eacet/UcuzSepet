@@ -1,0 +1,60 @@
+﻿@model Product
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#Category").change(function () {
+            var url = '@Url.Content("~/")' + "Product/GetSubCategories";
+            var source = "#Category";
+            $.getJSON(url, { categoryId: $(source).val() },
+                function (data) {
+                    var items = '';
+                    $("#SubCategory").empty();
+                    items += "<option value='0'>Select</option>";
+                    $.each(data, function (i,subCategory) {
+                        items += "<option value='"+subCategory.value+"'>"+subCategory.text+"</option>";
+                    });
+                    $("#SubCategory").html(items);
+                });
+
+        });
+
+    });
+</script>
+
+<form method="post">
+    <div asp-validation-summary="All"></div>
+    <div class="form-group">
+        <label for="Category">Category</label>
+        <select for="Category" id="Category"
+                class="form-control"
+                asp-items="@(new SelectList(ViewBag.Categories,"Id","Name"))">
+            <option value="0">Select</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label asp-for="SubCategoryId">Sub Category</label>
+        <select asp-for="SubCategoryId" id="SubCategory" name="SubCategoryId"
+                class="form-control">
+            <option value="0">Select</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label asp-for="BrandId">Brand</label>
+        <select asp-for="BrandId" name="BrandId"
+                class="form-control"
+                asp-items="@(new SelectList(ViewBag.Brands,"Id","Name"))">
+            <option value="0">Select</option>
+        </select>
+    </div>
+    <div class=" form-group">
+        <label asp-for="Name">Name</label>
+        <input class="form-control" id="name" placeholder="Product name" asp-for="Name" >
+    </div>
+    <div class="form-group">
+        <label asp-for="Price">Price</label>
+        <input class="form-control" id="name" placeholder="Price" asp-for="Price" >
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>

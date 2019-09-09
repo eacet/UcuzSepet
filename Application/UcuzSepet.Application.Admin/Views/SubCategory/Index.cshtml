@@ -1,0 +1,25 @@
+﻿@model IEnumerable<SubCategory>
+
+<partial name="_NewItemButtonPartial" />
+<div class="table-responsive">
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">RootCategory</th>
+                <th scope="col">#</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var subCategory in Model) {
+                <tr>
+                    <th scope="row">@subCategory.Id</th>
+                    <td>@subCategory.Name</td>
+                    <td>@(subCategory.RootCategory != null ? subCategory.RootCategory.Name : string.Empty)</td>
+                    <td><a asp-controller="SubCategory" asp-action="Edit" asp-route-id="@subCategory.Id">Edit</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+ </div>

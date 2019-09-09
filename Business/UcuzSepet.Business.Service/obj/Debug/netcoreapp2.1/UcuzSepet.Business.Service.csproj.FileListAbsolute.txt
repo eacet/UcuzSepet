@@ -1,0 +1,14 @@
+C:\Users\erhan.acet\source\repos\UcuzSepet\Business\UcuzSepet.Business.Service\bin\Debug\netcoreapp2.1\UcuzSepet.Business.Service.deps.json
+C:\Users\erhan.acet\source\repos\UcuzSepet\Business\UcuzSepet.Business.Service\bin\Debug\netcoreapp2.1\UcuzSepet.Business.Service.dll
+C:\Users\erhan.acet\source\repos\UcuzSepet\Business\UcuzSepet.Business.Service\bin\Debug\netcoreapp2.1\UcuzSepet.Business.Service.pdb
+C:\Users\erhan.acet\source\repos\UcuzSepet\Business\UcuzSepet.Business.Service\bin\Debug\netcoreapp2.1\UcuzSepet.Data.Domain.dll
+C:\Users\erhan.acet\source\repos\UcuzSepet\Business\UcuzSepet.Business.Service\bin\Debug\netcoreapp2.1\UcuzSepet.Data.EF.dll
+C:\Users\erhan.acet\source\repos\UcuzSepet\Business\UcuzSepet.Business.Service\bin\Debug\netcoreapp2.1\UcuzSepet.Data.EF.pdb
+C:\Users\erhan.acet\source\repos\UcuzSepet\Business\UcuzSepet.Business.Service\bin\Debug\netcoreapp2.1\UcuzSepet.Data.Domain.pdb
+C:\Users\erhan.acet\source\repos\UcuzSepet\Business\UcuzSepet.Business.Service\obj\Debug\netcoreapp2.1\UcuzSepet.Business.Service.csprojAssemblyReference.cache
+C:\Users\erhan.acet\source\repos\UcuzSepet\Business\UcuzSepet.Business.Service\obj\Debug\netcoreapp2.1\UcuzSepet.Business.Service.csproj.CoreCompileInputs.cache
+C:\Users\erhan.acet\source\repos\UcuzSepet\Business\UcuzSepet.Business.Service\obj\Debug\netcoreapp2.1\UcuzSepet.Business.Service.AssemblyInfoInputs.cache
+C:\Users\erhan.acet\source\repos\UcuzSepet\Business\UcuzSepet.Business.Service\obj\Debug\netcoreapp2.1\UcuzSepet.Business.Service.AssemblyInfo.cs
+C:\Users\erhan.acet\source\repos\UcuzSepet\Business\UcuzSepet.Business.Service\obj\Debug\netcoreapp2.1\UcuzSepet.Business.Service.csproj.CopyComplete
+C:\Users\erhan.acet\source\repos\UcuzSepet\Business\UcuzSepet.Business.Service\obj\Debug\netcoreapp2.1\UcuzSepet.Business.Service.dll
+C:\Users\erhan.acet\source\repos\UcuzSepet\Business\UcuzSepet.Business.Service\obj\Debug\netcoreapp2.1\UcuzSepet.Business.Service.pdb

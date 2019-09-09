@@ -1,0 +1,32 @@
+﻿@model IEnumerable<Product>
+
+<partial name="_NewItemButtonPartial" />
+
+<div class="table-responsive">
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Category</th>
+                <th scope="col">Brand</th>
+                <th scope="col">Name</th>
+                <th scope="col">Price</th>
+                <th scope="col">#</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in Model) {
+
+                <tr>
+                    <th scope="row">@product.Id</th>
+                    <td>@product.SubCategory.Name</td>
+                    <td>@product.Brand.Name</td>
+                    <td>@product.Name</td>
+                    <td>@product.Price</td>
+                    <td><a asp-controller="Product" asp-action="Edit" asp-route-id="@product.Id">Edit</a></td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>

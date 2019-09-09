@@ -1,0 +1,7 @@
+﻿
+@if (((Microsoft.AspNetCore.Mvc.Controllers.ControllerActionDescriptor)ViewContext.ActionDescriptor).ActionName == "Edit") {
+    <h1>Edit @this.ViewContext.RouteData.Values["controller"].ToString()</h1>
+}
+else if (((Microsoft.AspNetCore.Mvc.Controllers.ControllerActionDescriptor)ViewContext.ActionDescriptor).ActionName == "Insert") {
+    <h1>New @this.ViewContext.RouteData.Values["controller"].ToString()</h1>
+}

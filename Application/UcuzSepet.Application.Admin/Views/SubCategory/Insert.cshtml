@@ -1,0 +1,21 @@
+﻿@model SubCategory
+
+
+<form method="post">
+    <div asp-validation-summary="All"></div>
+    <div class="form-group">
+        <label asp-for="Name">Name</label>
+        <input class="form-control" id="categoryName" placeholder="Category name" asp-for="Name">
+    </div>
+    <div class="form-group">
+        <label asp-for="RootCategory">Root Category</label>
+        <select asp-for="RootCategory" name="RootCategoryId"
+                class="form-control"
+                asp-items="@(new SelectList(ViewBag.Categories,"Id","Name"))">
+            <option value="0">Select</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">
+        Save
+    </button>
+</form>

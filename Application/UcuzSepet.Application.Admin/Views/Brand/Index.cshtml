@@ -1,0 +1,26 @@
+﻿@model IEnumerable<Brand>
+
+<partial name="_NewItemButtonPartial" />
+
+<div class="table-responsive">
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">#</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var brand in Model) {
+
+                <tr>
+                    <th scope="row">@brand.Id</th>
+                    <td>@brand.Name</td>
+                    <td><a asp-controller="Brand" asp-action="Edit" asp-route-id="@brand.Id">Edit</a></td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>

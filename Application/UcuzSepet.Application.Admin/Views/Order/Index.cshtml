@@ -1,0 +1,35 @@
+﻿@using UcuzSepet.Data.Domain.Enums
+
+@model IEnumerable<Order>
+
+    <div id="order">
+        <div class="table-responsive">
+
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Order Number</th>
+                        <th scope="col">Order Date</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">#</th>
+                        <th scope="col">#</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var order in Model) {
+
+                        <tr>
+                            <th scope="row">@order.Id</th>
+                            <td>@order.OrderNumber</td>
+                            <td>@order.OrderDate</td>
+                            <td>@Enum.GetName(typeof(OrderStatus), order.Status)</td>
+                            <td><a asp-controller="Category" asp-action="Detail" asp-route-id="@order.Id">Detail</a></td>
+                            <td><a asp-controller="Category" asp-action="Edit" asp-route-id="@order.Id">Edit Status</a></td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </div>
