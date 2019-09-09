@@ -5,7 +5,6 @@ C:\Users\erhan.acet\source\repos\UcuzSepet\Application\UcuzSepet.Application.UI\
 C:\Users\erhan.acet\source\repos\UcuzSepet\Application\UcuzSepet.Application.UI\bin\Debug\netcoreapp2.2\UcuzSepet.Application.UI.pdb
 C:\Users\erhan.acet\source\repos\UcuzSepet\Application\UcuzSepet.Application.UI\bin\Debug\netcoreapp2.2\UcuzSepet.Application.UI.Views.dll
 C:\Users\erhan.acet\source\repos\UcuzSepet\Application\UcuzSepet.Application.UI\bin\Debug\netcoreapp2.2\UcuzSepet.Application.UI.Views.pdb
-C:\Users\erhan.acet\source\repos\UcuzSepet\Application\UcuzSepet.Application.UI\obj\Debug\netcoreapp2.2\UcuzSepet.Application.UI.csprojAssemblyReference.cache
 C:\Users\erhan.acet\source\repos\UcuzSepet\Application\UcuzSepet.Application.UI\obj\Debug\netcoreapp2.2\UcuzSepet.Application.UI.csproj.CoreCompileInputs.cache
 C:\Users\erhan.acet\source\repos\UcuzSepet\Application\UcuzSepet.Application.UI\obj\Debug\netcoreapp2.2\UcuzSepet.Application.UI.RazorAssemblyInfo.cache
 C:\Users\erhan.acet\source\repos\UcuzSepet\Application\UcuzSepet.Application.UI\obj\Debug\netcoreapp2.2\UcuzSepet.Application.UI.RazorAssemblyInfo.cs

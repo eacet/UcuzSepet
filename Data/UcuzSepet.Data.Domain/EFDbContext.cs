@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System.ComponentModel.DataAnnotations.Schema;
 using UcuzSepet.Data.Domain.Entities;
 
 namespace UcuzSepet.Data.Domain {
@@ -14,18 +13,7 @@ namespace UcuzSepet.Data.Domain {
         public DbSet<Order> Orders { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder) {
-            //modelBuilder.Entity<SubCategory>()
-            //      .HasOne(x => x.RootCategory);
 
-            //modelBuilder.Entity<SubCategory>().Property(x => x.RootCategory).ValueGeneratedNever();
-
-            //modelBuilder.Entity<SubCategory>().Ignore(x => x.RootCategory);
-
-            //modelBuilder.Entity<SubCategory>()
-            //    .Property(e => e.RootCategory)
-            //    .valu
         }
-
-
     }
 }

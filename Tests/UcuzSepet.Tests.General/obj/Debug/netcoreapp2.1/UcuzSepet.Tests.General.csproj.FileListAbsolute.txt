@@ -1,0 +1,13 @@
+C:\Users\erhan.acet\source\repos\UcuzSepet\Tests\UcuzSepet.Tests.General\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\erhan.acet\source\repos\UcuzSepet\Tests\UcuzSepet.Tests.General\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\erhan.acet\source\repos\UcuzSepet\Tests\UcuzSepet.Tests.General\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\erhan.acet\source\repos\UcuzSepet\Tests\UcuzSepet.Tests.General\bin\Debug\netcoreapp2.1\UcuzSepet.Tests.General.deps.json
+C:\Users\erhan.acet\source\repos\UcuzSepet\Tests\UcuzSepet.Tests.General\bin\Debug\netcoreapp2.1\UcuzSepet.Tests.General.runtimeconfig.json
+C:\Users\erhan.acet\source\repos\UcuzSepet\Tests\UcuzSepet.Tests.General\bin\Debug\netcoreapp2.1\UcuzSepet.Tests.General.runtimeconfig.dev.json
+C:\Users\erhan.acet\source\repos\UcuzSepet\Tests\UcuzSepet.Tests.General\bin\Debug\netcoreapp2.1\UcuzSepet.Tests.General.dll
+C:\Users\erhan.acet\source\repos\UcuzSepet\Tests\UcuzSepet.Tests.General\bin\Debug\netcoreapp2.1\UcuzSepet.Tests.General.pdb
+C:\Users\erhan.acet\source\repos\UcuzSepet\Tests\UcuzSepet.Tests.General\obj\Debug\netcoreapp2.1\UcuzSepet.Tests.General.csproj.CoreCompileInputs.cache
+C:\Users\erhan.acet\source\repos\UcuzSepet\Tests\UcuzSepet.Tests.General\obj\Debug\netcoreapp2.1\UcuzSepet.Tests.General.AssemblyInfoInputs.cache
+C:\Users\erhan.acet\source\repos\UcuzSepet\Tests\UcuzSepet.Tests.General\obj\Debug\netcoreapp2.1\UcuzSepet.Tests.General.AssemblyInfo.cs
+C:\Users\erhan.acet\source\repos\UcuzSepet\Tests\UcuzSepet.Tests.General\obj\Debug\netcoreapp2.1\UcuzSepet.Tests.General.dll
+C:\Users\erhan.acet\source\repos\UcuzSepet\Tests\UcuzSepet.Tests.General\obj\Debug\netcoreapp2.1\UcuzSepet.Tests.General.pdb
