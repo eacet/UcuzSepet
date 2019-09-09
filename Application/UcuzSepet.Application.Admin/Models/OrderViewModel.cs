@@ -5,6 +5,10 @@ using UcuzSepet.Data.Domain.Entities;
 using UcuzSepet.Data.Domain.Enums;
 
 namespace UcuzSepet.Application.Admin.Models {
+
+    /// <summary>
+    /// Order Entity View Model
+    /// </summary>
     public class OrderViewModel {
         public int Id { get; set; }
         [Required]
@@ -13,7 +17,6 @@ namespace UcuzSepet.Application.Admin.Models {
         public DateTime OrderDate { get; set; }
         [Required]
         public OrderStatus Status { get; set; }
-        [Required]
         public ICollection<OrderItem> Items { get; set; }
     }
 }

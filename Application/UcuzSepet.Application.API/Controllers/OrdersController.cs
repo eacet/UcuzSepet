@@ -9,6 +9,9 @@ using UcuzSepet.Data.Domain.Entities;
 using UcuzSepet.Data.EF.Components;
 
 namespace UcuzSepet.Application.API.Controllers {
+    /// <summary>
+    /// Orders Controller, Inherited from ApiController<Order>
+    /// </summary>
     public class OrdersController : ApiController<Order> {
 
         public new IOrderService Service { get; }
@@ -17,6 +20,11 @@ namespace UcuzSepet.Application.API.Controllers {
             : base(service, mapper, logger) => Service = service;
 
 
+        /// <summary>
+        /// Get Order from body and Create Order
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
         [HttpPost]
         public IActionResult Post([FromBody] OrderViewModel model) {
             try {

@@ -10,6 +10,10 @@ using UcuzSepet.Data.Domain.Entities;
 using UcuzSepet.Data.EF.Components;
 
 namespace UcuzSepet.Application.API.Controllers {
+
+    /// <summary>
+    /// Brands Controller, Inherited from ApiController<Brand>
+    /// </summary>
     public class BrandsController : ApiController<Brand> {
 
         public new IBrandService Service { get; }
@@ -18,6 +22,10 @@ namespace UcuzSepet.Application.API.Controllers {
             : base(service, mapper, logger) => Service = service;
 
 
+        /// <summary>
+        /// Return All Brands
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public IActionResult Get() {
             try {

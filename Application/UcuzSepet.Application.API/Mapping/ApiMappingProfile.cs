@@ -3,7 +3,15 @@ using UcuzSepet.Application.API.Models;
 using UcuzSepet.Data.Domain.Entities;
 
 namespace UcuzSepet.Application.API.Mapping {
+
+    /// <summary>
+    /// AutoMapper Mapping Profile
+    /// </summary>
     public class ApiMappingProfile : Profile {
+
+        /// <summary>
+        /// AutoMapper Profile Mappings
+        /// </summary>
         public ApiMappingProfile() {
 
             CreateMap<Category, CategoryViewModel>()

@@ -13,6 +13,9 @@ using UcuzSepet.Data.EF.Components;
 
 
 namespace UcuzSepet.Application.Admin.Controllers {
+    /// <summary>
+    /// Product Controller, Inherited from BaseController<Product>
+    /// </summary>
     public class ProductController : BaseController<Product> {
         public new IProductService Service { get; }
         public ICategoryService CategoryService { get; }
@@ -27,13 +30,21 @@ namespace UcuzSepet.Application.Admin.Controllers {
             BrandService = brandService;
         }
 
-
+        /// <summary>
+        /// Index View, Get All Products with related entities and Return into Index View. Override from Base Controller.
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public override IActionResult Index() {
             var results = Service.GetAllProductsWithInclude();
             return View(results);
         }
 
+        /// <summary>
+        /// Edit View, Get Product by Id with related entities and Return into Edit View. Override from Base Controller.
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet]
         public override IActionResult Edit(int id) {
 
@@ -57,6 +68,10 @@ namespace UcuzSepet.Application.Admin.Controllers {
             return View();
         }
 
+        /// <summary>
+        /// Insert View, Get related entities and Return into Insert View. Override from Base Controller.
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public override IActionResult Insert() {
 
@@ -75,32 +90,24 @@ namespace UcuzSepet.Application.Admin.Controllers {
             return View();
         }
 
+        /// <summary>
+        /// Get Sub Categories By Root Category Id
+        /// </summary>
+        /// <param name="categoryId"></param>
+        /// <returns></returns>
         [HttpGet]
         public JsonResult GetSubCategories(int categoryId) {
             var subCategories = SubCategoryService.GetSubCategoriesByRootCategoryId(categoryId);
             return Json(new SelectList(subCategories, "Id", "Name"));
         }
 
+        /// <summary>
+        /// Edit View [HttpPost], Update Product. Override from Base Controller.
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
         [HttpPost]
         public override IActionResult Edit(Product model) {
-            //if (ModelState.IsValid) {
-            //    Service.Edit(model);
-
-            //    if (Service.Save()) {
-            //        return RedirectToAction("Index");
-            //    }
-            //}
-            //else {
-            //    var categories = CategoryService.GetAll().ToList();
-            //    ViewBag.Categories = categories;
-
-            //    var subCategories = SubCategoryService.GetSubCategoriesByRootCategoryId(model.SubCategory.RootCategoryId);
-            //    ViewBag.SubCategories = subCategories;
-
-            //    var brands = BrandService.GetAll().ToList();
-            //    ViewBag.Brands = brands;
-            //}
-            //return View(model);
             throw new NotImplementedException();
         }
     }

@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 using UcuzSepet.Data.Domain.Entities;
 
 namespace UcuzSepet.Application.Admin.Models {
+
+    /// <summary>
+    /// Product Entity View Model
+    /// </summary>
     public class ProductViewModel {
         public int Id { get; set; }
         [Required]

@@ -11,7 +11,9 @@ using UcuzSepet.Data.EF.Components;
 
 
 namespace UcuzSepet.Application.API.Controllers {
-
+    /// <summary>
+    /// Products Controller, Inherited from ApiController<Product>
+    /// </summary>
     public class ProductsController : ApiController<Product> {
 
         public new IProductService Service { get; }
@@ -20,6 +22,10 @@ namespace UcuzSepet.Application.API.Controllers {
             : base(service, mapper, logger) => Service = service;
 
 
+        /// <summary>
+        /// Return All Products
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public IActionResult Get() {
             try {

@@ -1,19 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using AutoMapper;
+﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using System;
+using System.Collections.Generic;
 using UcuzSepet.Application.API.Base;
 using UcuzSepet.Application.API.Models;
 using UcuzSepet.Business.Service.IServices;
 using UcuzSepet.Data.Domain.Entities;
-using UcuzSepet.Data.EF.Components;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace UcuzSepet.Application.API.Controllers {
+    /// <summary>
+    /// Sub Category Controller, Inherited from ApiController<SubCategory>
+    /// </summary>
     public class SubCategoriesController : ApiController<SubCategory> {
 
         public new ISubCategoryService Service { get; }
@@ -22,6 +21,11 @@ namespace UcuzSepet.Application.API.Controllers {
             : base(service, mapper, logger) => Service = service;
 
 
+        /// <summary>
+        /// Return Sub Categories By RootCategoryId
+        /// </summary>
+        /// <param name="rootCategoryId"></param>
+        /// <returns></returns>
         [HttpGet("{rootCategoryId:int}")]
         public IActionResult Get(int rootCategoryId) {
             try {

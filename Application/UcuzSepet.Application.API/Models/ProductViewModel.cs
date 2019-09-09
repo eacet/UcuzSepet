@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 using UcuzSepet.Data.Domain.Entities;
 
 namespace UcuzSepet.Application.API.Models {
+    /// <summary>
+    /// Product View Model
+    /// </summary>
     public class ProductViewModel {
         public int Id { get; set; }
         [Required]

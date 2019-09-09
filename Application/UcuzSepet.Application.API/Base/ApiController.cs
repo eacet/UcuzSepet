@@ -5,6 +5,10 @@ using System;
 using UcuzSepet.Data.EF.Components;
 
 namespace UcuzSepet.Application.API.Base {
+    /// <summary>
+    /// Base Controller for API Controllers
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     [Route("api/[controller]")]
     public class ApiController<T> : Controller where T : class {
         public IBaseService<T> Service { get; }

@@ -11,6 +11,9 @@ using UcuzSepet.Data.EF.Components;
 
 
 namespace UcuzSepet.Application.API.Controllers {
+    /// <summary>
+    /// Categories Controller, Inherited from ApiController<Category>
+    /// </summary>
     public class CategoriesController : ApiController<Category> {
 
         public new ICategoryService Service { get; }
@@ -19,6 +22,10 @@ namespace UcuzSepet.Application.API.Controllers {
             : base(service, mapper, logger) => Service = service;
 
 
+        /// <summary>
+        /// Return All Categories
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public IActionResult Get() {
             try {

@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Threading.Tasks;
-using UcuzSepet.Data.Domain.Entities;
 
 namespace UcuzSepet.Application.API.Models {
+    /// <summary>
+    ///  Order Item View Model
+    /// </summary>
     public class OrderItemViewModel {
         public int Id { get; set; }
         [Required]

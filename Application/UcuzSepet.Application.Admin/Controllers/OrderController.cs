@@ -5,9 +5,11 @@ using UcuzSepet.Business.Service.IServices;
 using UcuzSepet.Data.Domain.Entities;
 using UcuzSepet.Data.EF.Components;
 
-// For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace UcuzSepet.Application.Admin.Controllers {
+    /// <summary>
+    /// Order Controller, Inherited from BaseController<Order>
+    /// </summary>
     public class OrderController : BaseController<Order> {
         public new IOrderService Service { get; }
 
@@ -16,8 +18,13 @@ namespace UcuzSepet.Application.Admin.Controllers {
             Service = service;
         }
 
+        /// <summary>
+        /// Edit View, Get Order by Id and Return into Edit View. Override from Base Controller.
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet]
-        public IActionResult Edit(int id) {
+        public override IActionResult Edit(int id) {
             var result = Service.GetBy(x => x.Id == id);
             return View(result);
         }
